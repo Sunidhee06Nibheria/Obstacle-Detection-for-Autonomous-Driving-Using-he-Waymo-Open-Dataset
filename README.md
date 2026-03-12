@@ -1,2 +1,10 @@
 # Obstacle-Detection-for-Autonomous-Driving-Using-he-Waymo-Open-Dataset
-Obstacle detection system for autonomous driving using semantic segmentation, instance segmentation, and transformer-based models trained on the Waymo Open Dataset to detect vehicles, pedestrians, and road objects in real-world driving scenes.
+This project focuses on developing an advanced obstacle detection system for autonomous driving using deep learning techniques. The goal is to accurately detect and classify obstacles such as vehicles, pedestrians, cyclists, and road objects from driving scene images. The system evaluates and compares three major computer vision approaches: semantic segmentation, instance segmentation, and transformer-based object detection models.
+
+The models are trained and evaluated using the Waymo Open Dataset, which is one of the largest publicly available datasets for autonomous vehicle research. It provides high-resolution camera images, LiDAR sensor data, and detailed annotations for objects in real-world driving environments.
+
+In this project, semantic segmentation models such as DeepLabv3+ are used to perform pixel-level classification of road scenes, enabling detailed understanding of the driving environment. Instance segmentation models like Mask R-CNN are implemented to detect individual object instances and generate precise object masks. Additionally, transformer-based object detection architectures such as DETR and Deformable DETR are used to capture global contextual information and improve detection accuracy.
+
+The project includes dataset preprocessing, model training, evaluation, and performance comparison using standard metrics such as Average Precision (AP) and Mean Intersection over Union (mIoU). The results highlight the strengths and limitations of each approach in terms of detection accuracy, computational efficiency, and suitability for real-time autonomous driving systems.
+
+This repository provides a complete pipeline including data preparation, model implementation, training scripts, evaluation tools, and visualization of results. The project aims to contribute to research in autonomous vehicle perception by analyzing modern deep learning models and their effectiveness in real-world obstacle detection scenarios.
