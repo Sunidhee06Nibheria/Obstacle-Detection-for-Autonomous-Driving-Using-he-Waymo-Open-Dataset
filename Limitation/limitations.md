@@ -4,3 +4,5 @@
 • High computational cost  
 • Dependency on large datasets  
 • Real-time speed limitations  
+• Synthetic dataset used instead of full Waymo dataset
+• Limited GPU resources
